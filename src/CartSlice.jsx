@@ -17,6 +17,7 @@ export const CartSlice = createSlice({
       if (existingItem) {
         existingItem.quantity++;
       } else {
+        existingItem.quantity += action.payload.quantity;
         state.items.push({name, image, cost, quantity :1});
       }
       state.totalQuantity += 1;
