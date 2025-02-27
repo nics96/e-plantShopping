@@ -70,8 +70,14 @@ body {
     border-radius: 5px;
     text-align: center;
     position: relative;
-    
     gap: 20px;
+}
+
+/* Plant Description */
+.product-description {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
 }
 
 /* Pseudo-classes - Hover effect on product button */
